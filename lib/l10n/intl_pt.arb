@@ -1,0 +1,19 @@
+{
+    "appTitle":"The TMDB Test Run!",
+    "favoriteMoviesPageTitle": "Filmes favoritos :3",
+    "inputLoginField":"Nome de usuário",
+    "inputPasswordField": "Senha",
+    "inputLoginButton": "Login",
+    "loginErrorMensage": "Por favor digite dados válidos",
+
+    "loadingText": "Carregando filmes :3",
+    "errorText": "Ocorreu um erro ao carregar dados )-:",
+    "homeTitle_0": "Filmes novos desta semana.",
+    "homeTitle_1": "Filmes favoritos.",
+    "homeNoFavoriteMovie": "Parece que você não tem nenhum filme favorito adicionado )-:",
+    "homeButton_0": "Ver todos",
+
+    "releaseDate": "Data de lançamento",
+    "movieDetails": "Detalhes do filme",
+    "overview": "Sinopse"
+}

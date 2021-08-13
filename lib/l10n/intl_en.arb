@@ -1,0 +1,19 @@
+{
+    "appTitle":"The TMDB Test Run!",
+    "favoriteMoviesPageTitle": "Your favorite movies :3",
+    "inputLoginField":"Username",
+    "inputPasswordField": "Password",
+    "inputLoginButton": "Login",
+    "loginErrorMensage": "Invalid login credentials",
+
+    "loadingText": "Loading movies :3",
+    "errorText": "Failed to load movies )-:",
+    "homeTitle_0": "New movies from this week.",
+    "homeTitle_1": "Favorite movies.",
+    "homeNoFavoriteMovie": "Seems like you don't have any favorite movie added )-:",
+    "homeButton_0": "See all",
+
+    "releaseDate": "Release Date",
+    "movieDetails": "Movie Details",
+    "overview": "Overview"
+}
