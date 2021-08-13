@@ -185,9 +185,9 @@ class _HomePageState extends State<HomePage> implements HomePageContract {
                                                       .data![index].isFavorite);
                                         } else {
                                           _presenter.removeFavoriteMovie(
-                                              context,
-                                              snapshot.data![index],
-                                              null);
+                                            context,
+                                            snapshot.data![index],
+                                          );
                                           setState(() =>
                                               snapshot.data![index].isFavorite =
                                                   !snapshot

@@ -56,8 +56,7 @@ class HomePresenter implements HomePresenterContract {
   }
 
   @override
-  removeFavoriteMovie(BuildContext context, SuccintMovieModel? movie,
-      ParseMovieModel? parseMovie) async {
+  removeFavoriteMovie(BuildContext context, SuccintMovieModel? movie) async {
     ParseService.removeFavoriteMovie(movie!);
   }
 

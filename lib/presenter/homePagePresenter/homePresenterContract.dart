@@ -6,7 +6,6 @@ abstract class HomePresenterContract {
   getNowPlaying(BuildContext context);
   getFavoriteMovies(BuildContext context);
   addFavoriteMovie(BuildContext context, SuccintMovieModel movie);
-  removeFavoriteMovie(BuildContext context, SuccintMovieModel? movie,
-      ParseMovieModel? parseMovie);
+  removeFavoriteMovie(BuildContext context, SuccintMovieModel? movie);
   Future<bool> logout();
 }

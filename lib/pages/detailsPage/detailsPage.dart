@@ -32,24 +32,6 @@ class _DetailsPageState extends State<DetailsPage> {
             : widget.parseMovieModel!.title!),
         centerTitle: true,
         elevation: 0,
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.favorite,
-              color: widget.isFavorite ? Colors.green : Colors.black,
-            ),
-            onPressed: () {
-              if (widget.isFavorite == false) {
-                widget.presenter.addFavoriteMovie(context, widget.movieModel!);
-              } else {
-                widget.presenter
-                    .removeFavoriteMovie(context, widget.movieModel!, null);
-              }
-
-              setState(() => widget.isFavorite = !widget.isFavorite);
-            },
-          )
-        ],
       ),
       body: SingleChildScrollView(
         child: Container(
